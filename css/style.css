@@ -1,0 +1,73 @@
+body {
+    background-color: #111;
+}
+
+.container {
+    background-color: #222;
+    width: 350px;
+    height: 63vh;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+
+.perfil {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 120px;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.tipografia {
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.locacion {
+    color: #a8f255;
+    margin-top: 5px;
+}
+
+.descripcion {
+    color: #aaa;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.link{
+    display: grid;
+    box-sizing: border-box;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    padding: 0;
+}
+
+.enlaces {
+    background-color: #333;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    max-width: 80%;
+    padding: 10px 20%;
+    border-radius: 8px;
+}
+
+@media ( max-width: 480px ){
+    .container {
+        height: 68vh;
+    }
+}
