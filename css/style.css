@@ -35,6 +35,7 @@ img {
 .locacion {
     color: #a8f255;
     margin-top: 5px;
+    font-size: 1rem;
 }
 
 .descripcion {
@@ -64,6 +65,11 @@ img {
     max-width: 80%;
     padding: 10px 20%;
     border-radius: 8px;
+}
+
+.enlaces:hover{
+    transform: scale(1.1);
+    transition: all;
 }
 
 @media ( max-width: 480px ){
